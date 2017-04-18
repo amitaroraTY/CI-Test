@@ -28,8 +28,6 @@ task checkstyle(type: Checkstyle) {
     configFile file("$configDir/checkstyle/checkstyle.xml")
     configProperties.checkstyleSuppressionsPath = file("$configDir/checkstyle/suppressions.xml").absolutePath
     source 'src'
-    ignoreFailures false
-    showViolations true
     include '**/*.java'
     exclude '**/gen/**'
     classpath = files()
