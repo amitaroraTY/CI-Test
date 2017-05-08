@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * MainActivity
  * Testing merge rebase
- * Added another line
  */
 public class MainActivity extends AppCompatActivity {
 
