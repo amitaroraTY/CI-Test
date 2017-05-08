@@ -14,4 +14,3 @@ public class MainActivity extends AppCompatActivity {
   }
 }
 // Test commit
-// Test commit two
